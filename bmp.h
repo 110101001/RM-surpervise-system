@@ -53,4 +53,7 @@ typedef struct tagBITMAP
     BITMAPINFO biInfo;
 }BITMAPFILE;
 #pragma pack(pop);
+
+void bmp_print(int x0,int y0,char* path);
+
 #endif
